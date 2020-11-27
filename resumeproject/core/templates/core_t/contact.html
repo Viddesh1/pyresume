@@ -1,0 +1,54 @@
+{% extends 'core_t/base.html' %}
+{% block content %}
+<div class="mt-5">
+    <h1 class="text-warning mb-5 border-bottom">CONTACT US</h1>
+    <div class="text-center text-white mb-5">Do you have any questions? Please do not hesitate to contact.</div>
+
+    <div class="row text-center text-white mb-5">
+                <div class="col-sm-10">
+                  <form>
+                        <div class="form-row">
+                            <div class="form-group col-md-6">
+                            <label for="inputEmail4 ss-color">Your Name</label>
+                            <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+                            </div>
+                            <div class="form-group col-md-6">
+                            <label for="inputPassword4 ss-color">Your Email*</label>
+                            <input type="password" class="form-control" id="inputPassword4" placeholder="Password">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleFormControlTextarea1">Address</label>
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Your address over here.."></textarea>
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleFormControlTextarea1">Your Message*</label>
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Your Message over here.."></textarea>
+                        </div>
+                        
+                        <button type="submit" class="btn btn-primary">Send</button>
+                    </form>          
+                    
+                  
+                </div>
+
+                  <div class="col-sm-2 md-5">
+                     <a href="#" target="_blank">
+                     <i class="fa fa-map-marker fa-2x i-color" aria-hidden="true"></i> </a>
+                     <p class="ss-color mb-5">India</p>
+
+                     <a href="#" target="_blank">
+                     <i class="fa fa-phone fa-2x i-color" aria-hidden="true"></i> </a>
+                     <p class="ss-color mb-5">+91 1234567890</p>
+
+                     <a href="#" target="_blank">
+                     <i class="fa fa-envelope fa-2x i-color" aria-hidden="true"></i> </a>
+                     <p class="ss-color">contact@gmail.com</p>
+                  </div>
+                  
+
+        </div>
+    </div>
+</div>
+
+{% endblock content %}
